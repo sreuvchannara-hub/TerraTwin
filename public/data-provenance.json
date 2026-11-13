@@ -1,0 +1,47 @@
+{
+  "project": "TerraTwin",
+  "team": "Segfault in the Stars",
+  "version": "2.0",
+  "data_used_live": [
+    {
+      "name": "NASA POWER temporal climatology point API",
+      "parameters": [
+        "T2M",
+        "PRECTOTCORR"
+      ],
+      "url": "https://power.larc.nasa.gov/docs/services/api/temporal/climatology/"
+    },
+    {
+      "name": "SRTM 30m elevation via OpenTopoData API",
+      "url": "https://www.opentopodata.org/api/",
+      "coverage_note": "approximately 60\u00b0S to 60\u00b0N"
+    }
+  ],
+  "planetary_reference_datasets_linked_not_ingested": [
+    {
+      "name": "MOLA Mars topography",
+      "url": "https://pgda.gsfc.nasa.gov/products/62"
+    },
+    {
+      "name": "LOLA lunar topography",
+      "url": "https://science.nasa.gov/mission/lro/lola/"
+    },
+    {
+      "name": "NASA PDS",
+      "url": "https://pds.nasa.gov/"
+    }
+  ],
+  "methodology_warning": "No validated similarity score or landing-safety assessment is produced. Makgadikgadi is a literature-supported Mars analog reference, not a TerraTwin discovery.",
+  "literature_context": [
+    {
+      "name": "Structural influences on groundwater circulation in the Makgadikgadi salt pans of Botswana? Implications for martian playa environments (2023)",
+      "doi": "10.3389/fspas.2023.1108386",
+      "url": "https://doi.org/10.3389/fspas.2023.1108386"
+    },
+    {
+      "name": "Ground penetrating radar observations of subsurface structures from the Makgadikgadi pans (Botswana): A terrestrial analogue of Martian playa lakes (2026)",
+      "doi": "10.1029/2026JE009817",
+      "url": "https://doi.org/10.1029/2026JE009817"
+    }
+  ]
+}
